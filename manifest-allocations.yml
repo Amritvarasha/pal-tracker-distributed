@@ -1,6 +1,6 @@
 applications:
-- name: tracker-allocations
-  path: ./applications/allocations-server/build/libs/allocations-server.jar
+  - name: tracker-allocations
+    path: ./applications/allocations-server/build/libs/allocations-server.jar
     routes:
         - route: allocations-pal-amritav.cfapps.io
     memory: 1G
