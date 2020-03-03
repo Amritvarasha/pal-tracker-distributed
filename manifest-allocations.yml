@@ -2,7 +2,7 @@ applications:
 - name: tracker-allocations
   path: ./applications/allocations-server/build/libs/allocations-server.jar
     routes:
-        - route: backlog-pal-pal-amritav.cfapps.io
+        - route: allocations-pal-amritav.cfapps.io
     memory: 1G
     instances: 1
     env:
